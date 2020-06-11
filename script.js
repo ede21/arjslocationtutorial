@@ -5,6 +5,7 @@ window.onload = () => {
 
     //Button Click Event
     document.querySelector('button[data-action="change"]').addEventListener('click', function () {
+        //let gpsCoords = 
         alert('test');
     });
 
