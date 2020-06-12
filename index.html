@@ -22,7 +22,11 @@
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: true;'>
         
-        
+          <!--assets-->
+	  <assets>
+		<img id="building" src="./assets/building.png"/>
+	  </assets>
+	  
         
         <a-text
         value="Technikzentrale\nBußmannallee 12\n79546 Marxhausen"
@@ -31,11 +35,7 @@
         rotation="0 0 0"
         gps-entity-place="longitude: 9.149890; latitude: 50.189600;"
       >
-	  <!--assets-->
-	  <assets>
-		<img id="building" src="./assets/building.png"/>
-	  </assets>
-	  
+	
 	  
 	  </a-text>
 	  
@@ -71,7 +71,7 @@
       >
 	  </a-text>
 	  
-	  <a-box color="red" position="115 10 -136"  rotation="0 0 0" scale="5 5 5" gps-entity-place="longitude: 9.149890; latitude: 50.189600;" ></a-box>
+	  <a-box color="red" position="0 10 0"  rotation="0 0 0" scale="5 5 5" gps-entity-place="longitude: 9.149890; latitude: 50.189600;" ></a-box>
 
         <a-camera wasd-controls gps-camera="simulateLongitude:9.149773;simulateLatitude:50.189155" rotation-reader></a-camera>
     </a-scene>
