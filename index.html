@@ -28,7 +28,7 @@
 	  </assets>
 	  
         
-		<a-entity id="container">
+		<a-entity id="container" gps-entity-place="longitude: 9.149890; latitude: 50.189600;">
 	  <a-entity id="subBox1" geometry="primitive: box; "
 		material="color: blue"  
 		scale="5 5 5"
@@ -37,18 +37,19 @@
 		material="color: orange"
 		scale="5 5 5"
 		position="20 10 -20"></a-entity>
-  </a-entity>
-		
-        <a-text
+		<a-text
         value="Technikzentrale\nBußmannallee 12\n79546 Marxhausen"
         look-at="[gps-camera]"
         scale="80 80 80"
         rotation="0 0 0"
-        gps-entity-place="longitude: 9.149890; latitude: 50.189600;"
+        
       >
 	
 	  
 	  </a-text>
+  </a-entity>
+		
+        
 	  
 	  <!-- Plane test-->
 	  <!--<a-entity link="href:www.google.de;title: Bureo 213;image:#building;titleColor:black;borderColor:black;visualAspectEnabled:true"
