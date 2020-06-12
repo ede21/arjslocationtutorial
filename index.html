@@ -31,22 +31,25 @@
 		
 	  <a-entity id="subBox1" geometry="primitive: box; "
 		material="color: blue"  
-		scale="5 5 5"
+		scale="1 1 1"
 		position="0 5 0"
 		gps-entity-place="longitude: 9.149972; latitude: 50.188846;"
 		></a-entity>
-	 
+	  
 		<a-text
         value="Technikzentrale\nBußmannallee 12\n79546 Marxhausen"
         gps-entity-place="latitude: 50.188951;longitude: 9.149996; "
-        scale="10 10 10"
+        
         rotation="0 0 0"
         look-at="[gps-camera]"
-      ></a-text>
+      >
+	
+	  
+	  </a-text>
 	   <a-text
         value="Details..."
         gps-entity-place="longitude: 9.149996; latitude: 50.188951;"
-        scale="10 10 10"
+        
         rotation="0 0 0"
         look-at="[gps-camera]"
 		color="blue"
@@ -59,11 +62,11 @@
 	  <a-text
         value="Bahnhof"
         gps-entity-place="latitude: 50.189383;longitude: 9.150292; "
-        scale="10 10 10"
+        
         rotation="0 0 0"
         look-at="[gps-camera]"
-      >
-	  
+            ></a-text>
+	   <a-box color="red" position="0 10 0"  rotation="0 0 0" scale="1 1 1" gps-entity-place="latitude: 50.189383;longitude: 9.150292; " ></a-box>
 	  <!-- Plane test-->
 	  <!--<a-entity link="href:www.google.de;title: Bureo 213;image:#building;titleColor:black;borderColor:black;visualAspectEnabled:true"
   
@@ -77,7 +80,7 @@
 	  
 	 
 	  
-	  <a-box color="red" position="0 10 0"  rotation="0 0 0" scale="5 5 5" gps-entity-place="longitude: 9.149890; latitude: 50.189600;" ></a-box>
+	 
 
         <a-camera wasd-controls gps-camera="simulateLongitude:9.149773;simulateLatitude:50.189155" rotation-reader></a-camera>
 		<!--<a-camera gps-camera rotation-reader></a-camera>-->
